@@ -1,0 +1,1000 @@
+:root {
+   /* 🔴 紅色系 (Red) */
+   --red-1: #ffe5e5;
+   --red-2: #ffcccc;
+   --red-3: #ffb3b3;
+   --red-4: #ff9999;
+   --red-5: #ff8080;
+   --red-6: #ff6666;
+   --red-7: #ff4d4d;
+   --red-8: #ff3333;
+   --red-9: #ff1a1a;
+   --red-10: #ff0000;
+   --red-11: #f00000;
+   --red-12: #e00000;
+   --red-13: #d00000;
+   --red-14: #c00000;
+   --red-15: #b00000;
+   --red-16: #a00000;
+   /* 保有紅色亮度 */
+   --red-17: #8f0000;
+   --red-18: #7f0a0a;
+   --red-19: #6f1010;
+   --red-20: #5f1515;
+
+   /* 🟠 橙色系 (Orange) */
+   --orange-1: #fff0e0;
+   --orange-2: #ffe0b3;
+   --orange-3: #ffd480;
+   --orange-4: #ffc266;
+   --orange-5: #ffb84d;
+   --orange-6: #ffad33;
+   --orange-7: #ffa31a;
+   --orange-8: #ff9900;
+   --orange-9: #f28c00;
+   --orange-10: #e67e00;
+   --orange-11: #d97300;
+   --orange-12: #cc6600;
+   --orange-13: #bf5900;
+   --orange-14: #b34d00;
+   --orange-15: #a64000;
+   --orange-16: #993300;
+   /* 保有橙色調 */
+   --orange-17: #8c2e00;
+   --orange-18: #802800;
+   --orange-19: #732300;
+   --orange-20: #661e00;
+
+   /* 🟡 黃色系 (Yellow) */
+   --yellow-1: #fffce0;
+   --yellow-2: #fff8b3;
+   --yellow-3: #fff380;
+   --yellow-4: #ffef66;
+   --yellow-5: #ffeb4d;
+   --yellow-6: #ffe733;
+   --yellow-7: #ffe31a;
+   --yellow-8: #ffdf00;
+   --yellow-9: #f2d400;
+   --yellow-10: #e6c900;
+   --yellow-11: #d9bd00;
+   --yellow-12: #ccb000;
+   --yellow-13: #bfa300;
+   --yellow-14: #b39600;
+   --yellow-15: #a68000;
+   --yellow-16: #998000;
+   /* 黃褐調保留亮度 */
+   --yellow-17: #8c7300;
+   --yellow-18: #806600;
+   --yellow-19: #735900;
+   --yellow-20: #664d00;
+
+   /* 🟢 綠色系 (Green) */
+   --green-1: #e6fff0;
+   --green-2: #ccffe0;
+   --green-3: #b3ffd1;
+   --green-4: #99ffc2;
+   --green-5: #80ffb3;
+   --green-6: #66ffa3;
+   --green-7: #4dff94;
+   --green-8: #33ff85;
+   --green-9: #1aff75;
+   --green-10: #00ff66;
+   --green-11: #00e65c;
+   --green-12: #00cc52;
+   --green-13: #00b347;
+   --green-14: #00993d;
+   --green-15: #008033;
+   --green-16: #00732d;
+   /* 深草綠調 */
+   --green-17: #006629;
+   --green-18: #005924;
+   --green-19: #004d20;
+   --green-20: #00401a;
+
+   /* 🔵 藍色系 (Blue) */
+   --blue-1: #e6f5ff;
+   --blue-2: #cceaff;
+   --blue-3: #b3e0ff;
+   --blue-4: #99d6ff;
+   --blue-5: #80ccff;
+   --blue-6: #66c2ff;
+   --blue-7: #4db8ff;
+   --blue-8: #33adff;
+   --blue-9: #1aa3ff;
+   --blue-10: #0099ff;
+   --blue-11: #008ae6;
+   --blue-12: #007acc;
+   --blue-13: #006bb3;
+   --blue-14: #005c99;
+   --blue-15: #004d80;
+   --blue-16: #004273;
+   /* 深藍仍明顯 */
+   --blue-17: #003766;
+   --blue-18: #002c59;
+   --blue-19: #00214d;
+   --blue-20: #001640;
+
+   /* 🟣 靛色系 (Indigo) */
+   --indigo-1: #ede6ff;
+   --indigo-2: #e0ccff;
+   --indigo-3: #d1b3ff;
+   --indigo-4: #c299ff;
+   --indigo-5: #b380ff;
+   --indigo-6: #a366ff;
+   --indigo-7: #944dff;
+   --indigo-8: #8533ff;
+   --indigo-9: #751aff;
+   --indigo-10: #6600ff;
+   --indigo-11: #5c00e6;
+   --indigo-12: #5200cc;
+   --indigo-13: #4700b3;
+   --indigo-14: #3d0099;
+   --indigo-15: #330080;
+   --indigo-16: #2b0073;
+   /* 深靛但仍偏藍紫 */
+   --indigo-17: #240066;
+   --indigo-18: #1d0059;
+   --indigo-19: #16004d;
+   --indigo-20: #100040;
+
+   /* 🟪 紫色系 (Violet) */
+   --violet-1: #ffe6ff;
+   --violet-2: #ffccff;
+   --violet-3: #ffb3ff;
+   --violet-4: #ff99ff;
+   --violet-5: #ff80ff;
+   --violet-6: #ff66ff;
+   --violet-7: #ff4dff;
+   --violet-8: #ff33ff;
+   --violet-9: #ff1aff;
+   --violet-10: #ff00ff;
+   --violet-11: #e600e6;
+   --violet-12: #cc00cc;
+   --violet-13: #b300b3;
+   --violet-14: #990099;
+   --violet-15: #800080;
+   --violet-16: #730073;
+   /* 深紫仍偏鮮 */
+   --violet-17: #660066;
+   --violet-18: #590059;
+   --violet-19: #4d004d;
+   --violet-20: #400040;
+   /*莫蘭迪色*/
+   --morandi-rose: #d8a39d;
+   /* 玫瑰粉灰 */
+   --morandi-blue: #9aa7b1;
+   /* 灰藍 */
+   --morandi-green: #a8b6a2;
+   /* 灰綠 */
+   --morandi-beige: #d6c6b9;
+   /* 米駝 */
+   --morandi-purple: #b7a7bb;
+   /* 淡紫灰 */
+   --morandi-yellow: #e3c6a6;
+   /* 奶茶黃 */
+   --morandi-gray: #c4bfb7;
+   /* 暖灰 */
+   --morandi-olive: #b2a293;
+   /* 橄欖灰 */
+   --morandi-teal: #a0b9b2;
+   /* 綠藍灰 */
+   --morandi-sand: #d1bfa7;
+   /* 沙膚色 */
+   /* 莫蘭迪深色系 */
+   --morandi-rose-dark: #b78a84;
+   /* 深玫瑰灰 */
+   --morandi-blue-dark: #7d8891;
+   /* 深灰藍 */
+   --morandi-green-dark: #889382;
+   /* 深灰綠 */
+   --morandi-beige-dark: #b9a894;
+   /* 深米駝 */
+   --morandi-purple-dark: #98899a;
+   /* 深紫灰 */
+   --morandi-yellow-dark: #c2a983;
+   /* 深奶茶黃 */
+   --morandi-gray-dark: #a49f97;
+   /* 深暖灰 */
+   --morandi-olive-dark: #958879;
+   /* 深橄欖灰 */
+   --morandi-teal-dark: #829a94;
+   /* 深綠藍灰 */
+   --morandi-sand-dark: #b29c83;
+   /* 深沙膚色 */
+
+
+   /* =========================
+     🌸 莫蘭迪色組合 01 - 玫瑰粉 x 暖灰
+     ========================= */
+   --theme1-main: #c9a9a6;
+   /* 玫瑰粉主色 */
+   --theme1-accent: #b3a398;
+   /* 暖灰 */
+   --theme1-bg: #f5f2f0;
+   /* 柔白背景 */
+   --theme1-highlight: #e6c7b6;
+   /* 奶杏點綴 */
+
+   /* =========================
+     🌿 莫蘭迪色組合 02 - 灰綠 x 沙駝
+     ========================= */
+   --theme2-main: #9da993;
+   /* 灰綠主色 */
+   --theme2-accent: #bcae9e;
+   /* 沙駝輔色 */
+   --theme2-bg: #f3f1ed;
+   /* 淡灰背景 */
+   --theme2-highlight: #d9cbb4;
+   /* 米杏亮點 */
+
+   /* =========================
+     🌾 莫蘭迪色組合 03 - 奶茶 x 淺藍灰
+     ========================= */
+   --theme3-main: #c5b59d;
+   /* 奶茶主色 */
+   --theme3-accent: #a8b0b2;
+   /* 淺藍灰輔色 */
+   --theme3-bg: #f7f6f3;
+   /* 淡米背景 */
+   --theme3-highlight: #dbc7aa;
+   /* 暖金點綴 */
+
+   /* =========================
+     🪶 莫蘭迪色組合 04 - 暗藍 x 粉灰
+     ========================= */
+   --theme4-main: #7d8891;
+   /* 暗灰藍主色 */
+   --theme4-accent: #c3b7b3;
+   /* 粉灰輔色 */
+   --theme4-bg: #f2f1f0;
+   /* 柔灰背景 */
+   --theme4-highlight: #a3a9b0;
+   /* 藍灰點綴 */
+
+   /* =========================
+     🌰 莫蘭迪色組合 05 - 可可棕 x 暖駝灰
+     ========================= */
+   --theme5-main: #8c7466;
+   /* 可可主色 */
+   --theme5-accent: #b59f8c;
+   /* 暖駝灰 */
+   --theme5-bg: #f3efeb;
+   /* 淡米白背景 */
+   --theme5-highlight: #c9b6a5;
+   /* 奶棕點綴 */
+}
+
+
+
+
+
+
+/*紅*/
+.bgr-1 {
+   background-color: var(--red-1);
+}
+
+.bgr-2 {
+   background-color: var(--red-2);
+}
+
+.bgr-3 {
+   background-color: var(--red-3);
+}
+
+.bgr-4 {
+   background-color: var(--red-4);
+}
+
+.bgr-5 {
+   background-color: var(--red-5);
+}
+
+.bgr-6 {
+   background-color: var(--red-6);
+}
+
+.bgr-7 {
+   background-color: var(--red-7);
+}
+
+.bgr-8 {
+   background-color: var(--red-8);
+}
+
+.bgr-9 {
+   background-color: var(--red-9);
+}
+
+.bgr-10 {
+   background-color: var(--red-10);
+}
+
+.bgr-11 {
+   background-color: var(--red-11);
+}
+
+.bgr-12 {
+   background-color: var(--red-12);
+}
+
+.bgr-13 {
+   background-color: var(--red-13);
+}
+
+.bgr-14 {
+   background-color: var(--red-14);
+}
+
+.bgr-15 {
+   background-color: var(--red-15);
+}
+
+.bgr-16 {
+   background-color: var(--red-16);
+}
+
+.bgr-17 {
+   background-color: var(--red-17);
+}
+
+.bgr-18 {
+   background-color: var(--red-18);
+}
+
+.bgr-19 {
+   background-color: var(--red-19);
+}
+
+.bgr-20 {
+   background-color: var(--red-20);
+}
+
+/*橙*/
+.bgo-1 {
+   background-color: var(--orange-1);
+}
+
+.bgo-2 {
+   background-color: var(--orange-2);
+}
+
+.bgo-3 {
+   background-color: var(--orange-3);
+}
+
+.bgo-4 {
+   background-color: var(--orange-4);
+}
+
+.bgo-5 {
+   background-color: var(--orange-5);
+}
+
+.bgo-6 {
+   background-color: var(--orange-6);
+}
+
+.bgo-7 {
+   background-color: var(--orange-7);
+}
+
+.bgo-8 {
+   background-color: var(--orange-8);
+}
+
+.bgo-9 {
+   background-color: var(--orange-9);
+}
+
+.bgo-10 {
+   background-color: var(--orange-10);
+}
+
+.bgo-11 {
+   background-color: var(--orange-11);
+}
+
+.bgo-12 {
+   background-color: var(--orange-12);
+}
+
+.bgo-13 {
+   background-color: var(--orange-13);
+}
+
+.bgo-14 {
+   background-color: var(--orange-14);
+}
+
+.bgo-15 {
+   background-color: var(--orange-15);
+}
+
+.bgo-16 {
+   background-color: var(--orange-16);
+}
+
+.bgo-17 {
+   background-color: var(--orange-17);
+}
+
+.bgo-18 {
+   background-color: var(--orange-18);
+}
+
+.bgo-19 {
+   background-color: var(--orange-19);
+}
+
+.bgo-20 {
+   background-color: var(--orange-20);
+}
+
+/*黃*/
+.bgy-1 {
+   background-color: var(--yellow-1);
+}
+
+.bgy-2 {
+   background-color: var(--yellow-2);
+}
+
+.bgy-3 {
+   background-color: var(--yellow-3);
+}
+
+.bgy-4 {
+   background-color: var(--yellow-4);
+}
+
+.bgy-5 {
+   background-color: var(--yellow-5);
+}
+
+.bgy-6 {
+   background-color: var(--yellow-6);
+}
+
+.bgy-7 {
+   background-color: var(--yellow-7);
+}
+
+.bgy-8 {
+   background-color: var(--yellow-8);
+}
+
+.bgy-9 {
+   background-color: var(--yellow-9);
+}
+
+.bgy-10 {
+   background-color: var(--yellow-10);
+}
+
+.bgy-11 {
+   background-color: var(--yellow-11);
+}
+
+.bgy-12 {
+   background-color: var(--yellow-12);
+}
+
+.bgy-13 {
+   background-color: var(--yellow-13);
+}
+
+.bgy-14 {
+   background-color: var(--yellow-14);
+}
+
+.bgy-15 {
+   background-color: var(--yellow-15);
+}
+
+.bgy-16 {
+   background-color: var(--yellow-16);
+}
+
+.bgy-17 {
+   background-color: var(--yellow-17);
+}
+
+.bgy-18 {
+   background-color: var(--yellow-18);
+}
+
+.bgy-19 {
+   background-color: var(--yellow-19);
+}
+
+.bgy-20 {
+   background-color: var(--yellow-20);
+}
+
+/*綠*/
+.bgg-1 {
+   background-color: var(--green-1);
+}
+
+.bgg-2 {
+   background-color: var(--green-2);
+}
+
+.bgg-3 {
+   background-color: var(--green-3);
+}
+
+.bgg-4 {
+   background-color: var(--green-4);
+}
+
+.bgg-5 {
+   background-color: var(--green-5);
+}
+
+.bgg-6 {
+   background-color: var(--green-6);
+}
+
+.bgg-7 {
+   background-color: var(--green-7);
+}
+
+.bgg-8 {
+   background-color: var(--green-8);
+}
+
+.bgg-9 {
+   background-color: var(--green-9);
+}
+
+.bgg-10 {
+   background-color: var(--green-10);
+}
+
+.bgg-11 {
+   background-color: var(--green-11);
+}
+
+.bgg-12 {
+   background-color: var(--green-12);
+}
+
+.bgg-13 {
+   background-color: var(--green-13);
+}
+
+.bgg-14 {
+   background-color: var(--green-14);
+}
+
+.bgg-15 {
+   background-color: var(--green-15);
+}
+
+.bgg-16 {
+   background-color: var(--green-16);
+}
+
+.bgg-17 {
+   background-color: var(--green-17);
+}
+
+.bgg-18 {
+   background-color: var(--green-18);
+}
+
+.bgg-19 {
+   background-color: var(--green-19);
+}
+
+.bgg-20 {
+   background-color: var(--green-20);
+}
+
+/*藍*/
+.bgb-1 {
+   background-color: var(--blue-1);
+}
+
+.bgb-2 {
+   background-color: var(--blue-2);
+}
+
+.bgb-3 {
+   background-color: var(--blue-3);
+}
+
+.bgb-4 {
+   background-color: var(--blue-4);
+}
+
+.bgb-5 {
+   background-color: var(--blue-5);
+}
+
+.bgb-6 {
+   background-color: var(--blue-6);
+}
+
+.bgb-7 {
+   background-color: var(--blue-7);
+}
+
+.bgb-8 {
+   background-color: var(--blue-8);
+}
+
+.bgb-9 {
+   background-color: var(--blue-9);
+}
+
+.bgb-10 {
+   background-color: var(--blue-10);
+}
+
+.bgb-11 {
+   background-color: var(--blue-11);
+}
+
+.bgb-12 {
+   background-color: var(--blue-12);
+}
+
+.bgb-13 {
+   background-color: var(--blue-13);
+}
+
+.bgb-14 {
+   background-color: var(--blue-14);
+}
+
+.bgb-15 {
+   background-color: var(--blue-15);
+}
+
+.bgb-16 {
+   background-color: var(--blue-16);
+}
+
+.bgb-17 {
+   background-color: var(--blue-17);
+}
+
+.bgb-18 {
+   background-color: var(--blue-18);
+}
+
+.bgb-19 {
+   background-color: var(--blue-19);
+}
+
+.bgb-20 {
+   background-color: var(--blue-20);
+}
+
+/*靛*/
+.bgi-1 {
+   background-color: var(--indigo-1);
+}
+
+.bgi-2 {
+   background-color: var(--indigo-2);
+}
+
+.bgi-3 {
+   background-color: var(--indigo-3);
+}
+
+.bgi-4 {
+   background-color: var(--indigo-4);
+}
+
+.bgi-5 {
+   background-color: var(--indigo-5);
+}
+
+.bgi-6 {
+   background-color: var(--indigo-6);
+}
+
+.bgi-7 {
+   background-color: var(--indigo-7);
+}
+
+.bgi-8 {
+   background-color: var(--indigo-8);
+}
+
+.bgi-9 {
+   background-color: var(--indigo-9);
+}
+
+.bgi-10 {
+   background-color: var(--indigo-10);
+}
+
+.bgi-11 {
+   background-color: var(--indigo-11);
+}
+
+.bgi-12 {
+   background-color: var(--indigo-12);
+}
+
+.bgi-13 {
+   background-color: var(--indigo-13);
+}
+
+.bgi-14 {
+   background-color: var(--indigo-14);
+}
+
+.bgi-15 {
+   background-color: var(--indigo-15);
+}
+
+.bgi-16 {
+   background-color: var(--indigo-16);
+}
+
+.bgi-17 {
+   background-color: var(--indigo-17);
+}
+
+.bgi-18 {
+   background-color: var(--indigo-18);
+}
+
+.bgi-19 {
+   background-color: var(--indigo-19);
+}
+
+.bgi-20 {
+   background-color: var(--indigo-20);
+}
+
+/*紫*/
+.bgv-1 {
+   background-color: var(--violet-1);
+}
+
+.bgv-2 {
+   background-color: var(--violet-2);
+}
+
+.bgv-3 {
+   background-color: var(--violet-3);
+}
+
+.bgv-4 {
+   background-color: var(--violet-4);
+}
+
+.bgv-5 {
+   background-color: var(--violet-5);
+}
+
+.bgv-6 {
+   background-color: var(--violet-6);
+}
+
+.bgv-7 {
+   background-color: var(--violet-7);
+}
+
+.bgv-8 {
+   background-color: var(--violet-8);
+}
+
+.bgv-9 {
+   background-color: var(--violet-9);
+}
+
+.bgv-10 {
+   background-color: var(--violet-10);
+}
+
+.bgv-11 {
+   background-color: var(--violet-11);
+}
+
+.bgv-12 {
+   background-color: var(--violet-12);
+}
+
+.bgv-13 {
+   background-color: var(--violet-13);
+}
+
+.bgv-14 {
+   background-color: var(--violet-14);
+}
+
+.bgv-15 {
+   background-color: var(--violet-15);
+}
+
+.bgv-16 {
+   background-color: var(--violet-16);
+}
+
+.bgv-17 {
+   background-color: var(--violet-17);
+}
+
+.bgv-18 {
+   background-color: var(--violet-18);
+}
+
+.bgv-19 {
+   background-color: var(--violet-19);
+}
+
+.bgv-20 {
+   background-color: var(--violet-20);
+}
+
+/*淺色系莫蘭迪*/
+.bgm-r {
+   background-color: var(--morandi-rose);
+}
+
+.bgm-b {
+   background-color: var(--morandi-blue);
+}
+
+.bgm-g {
+   background-color: var(--morandi-green);
+}
+
+.bgm-bei {
+   background-color: var(--morandi-beige);
+}
+
+.bgm-p {
+   background-color: var(--morandi-purple);
+}
+
+.bgm-y {
+   background-color: var(--morandi-yellow);
+}
+
+.bgm-gra {
+   background-color: var(--morandi-gray);
+}
+
+.bgm-o {
+   background-color: var(--morandi-olive);
+}
+
+.bgm-t {
+   background-color: var(--morandi-teal);
+}
+
+.bgm-s {
+   background-color: var(--morandi-sand);
+}
+
+/*深色系莫蘭迪*/
+.bgm-rd {
+   background-color: var(--morandi-rose-dark);
+}
+
+.bgm-bd {
+   background-color: var(--morandi-blue-dark);
+}
+
+.bgm-gd {
+   background-color: var(--morandi-green-dark);
+}
+
+.bgm-beid {
+   background-color: var(--morandi-beige-dark);
+}
+
+.bgm-pd {
+   background-color: var(--morandi-purple-dark);
+}
+
+.bgm-yd {
+   background-color: var(--morandi-yellow-dark);
+}
+
+.bgm-grad {
+   background-color: var(--morandi-gray-dark);
+}
+
+.bgm-od {
+   background-color: var(--morandi-olive-dark);
+}
+
+.bgm-td {
+   background-color: var(--morandi-teal-dark);
+}
+
+.bgm-sd {
+   background-color: var(--morandi-sand-dark);
+}
+
+/*莫蘭迪主題*/
+.mtheme1-1 {
+   background-color: var(--theme1-main);
+}
+
+.mtheme1-2 {
+   background-color: var(--theme1-accent);
+}
+
+.mtheme1-3 {
+   background-color: var(--theme1-bg);
+}
+
+.mtheme1-4 {
+   background-color: var(--theme1-highlight);
+}
+
+.mtheme2-1 {
+   background-color: var(--theme2-main);
+}
+
+.mtheme2-2 {
+   background-color: var(--theme2-accent);
+}
+
+.mtheme2-3 {
+   background-color: var(--theme2-bg);
+}
+
+.mtheme2-4 {
+   background-color: var(--theme2-highlight);
+}
+
+.mtheme3-1 {
+   background-color: var(--theme3-main);
+}
+
+.mtheme3-2 {
+   background-color: var(--theme3-accent);
+}
+
+.mtheme3-3 {
+   background-color: var(--theme3-bg);
+}
+
+.mtheme3-4 {
+   background-color: var(--theme3-highlight);
+}
+
+.mtheme4-1 {
+   background-color: var(--theme4-main);
+}
+
+.mtheme4-2 {
+   background-color: var(--theme4-accent);
+}
+
+.mtheme4-3 {
+   background-color: var(--theme4-bg);
+}
+
+.mtheme4-4 {
+   background-color: var(--theme4-highlight);
+}
+
+.mtheme5-1 {
+   background-color: var(--theme5-main);
+}
+
+.mtheme5-2 {
+   background-color: var(--theme5-accent);
+}
+
+.mtheme5-3 {
+   background-color: var(--theme5-bg);
+}
+
+.mtheme5-4 {
+   background-color: var(--theme5-highlight);
+}

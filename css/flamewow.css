@@ -1,0 +1,24 @@
+.flame {
+    display: inline-block;
+    /* background: radial-gradient(circle at 50% 80%, #ffea00, #ff8c00, #ff4500); */
+    /* border-radius: 50% 50% 30% 30%; */
+    animation: flameFlicker 1.5s infinite alternate ease-in-out;
+    filter: blur(1px);
+}
+
+@keyframes flameFlicker {
+    0% {
+        transform: scale(1) translateX(0px);
+        filter: brightness(1);
+    }
+    50% {
+        transform: scale(1.05) translateX(-1px);
+        filter: brightness(1.1);
+    }
+    100% {
+        transform: scale(1) translateX(0px);
+        filter: brightness(1);
+    }
+}
+
+
